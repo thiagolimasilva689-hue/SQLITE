@@ -1,0 +1,21 @@
+# 2)Mostrar os animais cujo nome começa com "R".
+visitar =cursor.execute('''Select*from zoologico
+where Nome LIKE 'R%'
+
+''').fetchall()
+for nome, estado_emocional, idade, nome_da_especie in visitar:
+    print(f"{nome} | {estado_emocional} | {idade} | {nome_da_especie}")
+
+#3)Mostrar os animais com idade 4 ou 8 usando IN.
+visitar =cursor.execute('''Select*from zoologico
+where idade in (4,8)
+''').fetchall()
+for nome, estado_emocional, idade, nome_da_especie in visitar:
+    print(f"{nome} | {estado_emocional} | {idade} | {nome_da_especie}")
+
+# 5)Mostrar os animais que estão "Feliz" ou "Animada".
+visitar =cursor.execute('''Select*from zoologico
+where estado_emocional in ('Feliz','Animada')
+''').fetchall()
+for nome, estado_emocional, idade, nome_da_especie in visitar:
+    print(f"{nome} | {estado_emocional} | {idade} | {nome_da_especie}")
