@@ -1,0 +1,6 @@
+nome,preco,quantidade
+Arroz,25.90,50
+Feijão,10.50,30
+Macarrão,5.90,100
+Carne,45.00,20
+Leite,6.50,60

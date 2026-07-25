@@ -1,0 +1,2 @@
+nome,idade,cidade,nascimento,comida_favorita,sonho,animal_favorito,faculdade
+Thiago,19,Coxim,07/08/2006,espetinho,conseguir um trabalho de analista de dados,Teiú,Ufms

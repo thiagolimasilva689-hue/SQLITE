@@ -1,0 +1,8 @@
+nome: Thiago de lima
+idade : 19
+cidade: coxim
+nascimento:07/08/2006
+comida favorita: espetinho
+sonho: conseguir um trabalho de analista de dados
+animal favorito: Teiú
+faculdade: Ufms
