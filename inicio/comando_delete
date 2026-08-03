@@ -1,5 +1,0 @@
-deleta = cursor = conexao.cursor()
-cursor.execute('''DELETE  from zoologico
-          WHERE nome = 'Rainha'
-    ''')
-conexao.commit()
