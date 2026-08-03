@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('C:/Users/Thiago/OneDrive/Desktop/teiu/csv/dieta_ultima.csv')
+df = pd.read_csv(r'C:/Users/Thiago/OneDrive/Desktop/teiu/csv/livros.json')
 
-df.to_excel('Dieta.xlsx')
+df.to_excel('livros.xlsx')
 print("ARQUIVANDO COM SUCESSO!")

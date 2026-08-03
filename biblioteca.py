@@ -94,7 +94,8 @@ Média de páginas
 #Média de páginas 
 resultado = cursor.execute('SELECT AVG(paginas) FROM livros')
 resultado = cursor.fetchone()
-print(f"A media de paginas é : {resultado[0]:.2f}")
+#print(f"A media de paginas é : {resultado[0]:.2f}")
+
 
      
     
